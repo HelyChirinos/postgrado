@@ -1,0 +1,104 @@
+{
+  "_jquery-CWhtYl6l.js": {
+    "file": "assets/jquery-CWhtYl6l.js",
+    "name": "jquery"
+  },
+  "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff": {
+    "file": "assets/bootstrap-icons-BOrJxbIo.woff",
+    "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff"
+  },
+  "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2": {
+    "file": "assets/bootstrap-icons-BtvjY1KL.woff2",
+    "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-CzbuJ9zy.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "imports": [
+      "_jquery-CWhtYl6l.js"
+    ]
+  },
+  "resources/js/custom.js": {
+    "file": "assets/custom-BM91BTzq.js",
+    "name": "custom",
+    "src": "resources/js/custom.js",
+    "isEntry": true
+  },
+  "resources/js/datatables.js": {
+    "file": "assets/datatables-CtYgTbaO.js",
+    "name": "datatables",
+    "src": "resources/js/datatables.js",
+    "isEntry": true,
+    "imports": [
+      "_jquery-CWhtYl6l.js"
+    ]
+  },
+  "resources/sass/app.scss": {
+    "file": "assets/app-DBtD7Kkj.css",
+    "src": "resources/sass/app.scss",
+    "isEntry": true
+  },
+  "resources/sass/deferred.scss": {
+    "file": "assets/deferred-DPlFYqzU.css",
+    "src": "resources/sass/deferred.scss",
+    "isEntry": true
+  },
+  "resources/sass/font-awesome/webfonts/fa-brands-400.ttf": {
+    "file": "assets/fa-brands-400-DKc7z3fd.ttf",
+    "src": "resources/sass/font-awesome/webfonts/fa-brands-400.ttf"
+  },
+  "resources/sass/font-awesome/webfonts/fa-brands-400.woff2": {
+    "file": "assets/fa-brands-400-DF7ZvTeC.woff2",
+    "src": "resources/sass/font-awesome/webfonts/fa-brands-400.woff2"
+  },
+  "resources/sass/font-awesome/webfonts/fa-duotone-900.ttf": {
+    "file": "assets/fa-duotone-900-ClYWLCUh.ttf",
+    "src": "resources/sass/font-awesome/webfonts/fa-duotone-900.ttf"
+  },
+  "resources/sass/font-awesome/webfonts/fa-duotone-900.woff2": {
+    "file": "assets/fa-duotone-900-BJBtvIlJ.woff2",
+    "src": "resources/sass/font-awesome/webfonts/fa-duotone-900.woff2"
+  },
+  "resources/sass/font-awesome/webfonts/fa-light-300.ttf": {
+    "file": "assets/fa-light-300-D3WN9gph.ttf",
+    "src": "resources/sass/font-awesome/webfonts/fa-light-300.ttf"
+  },
+  "resources/sass/font-awesome/webfonts/fa-light-300.woff2": {
+    "file": "assets/fa-light-300-CAQgLJUF.woff2",
+    "src": "resources/sass/font-awesome/webfonts/fa-light-300.woff2"
+  },
+  "resources/sass/font-awesome/webfonts/fa-regular-400.ttf": {
+    "file": "assets/fa-regular-400-ESUgde1f.ttf",
+    "src": "resources/sass/font-awesome/webfonts/fa-regular-400.ttf"
+  },
+  "resources/sass/font-awesome/webfonts/fa-regular-400.woff2": {
+    "file": "assets/fa-regular-400-9_Vzj1Xc.woff2",
+    "src": "resources/sass/font-awesome/webfonts/fa-regular-400.woff2"
+  },
+  "resources/sass/font-awesome/webfonts/fa-solid-900.ttf": {
+    "file": "assets/fa-solid-900-DqNzCIF3.ttf",
+    "src": "resources/sass/font-awesome/webfonts/fa-solid-900.ttf"
+  },
+  "resources/sass/font-awesome/webfonts/fa-solid-900.woff2": {
+    "file": "assets/fa-solid-900-BGC0BV9Y.woff2",
+    "src": "resources/sass/font-awesome/webfonts/fa-solid-900.woff2"
+  },
+  "resources/sass/font-awesome/webfonts/fa-thin-100.ttf": {
+    "file": "assets/fa-thin-100-DiTavMmC.ttf",
+    "src": "resources/sass/font-awesome/webfonts/fa-thin-100.ttf"
+  },
+  "resources/sass/font-awesome/webfonts/fa-thin-100.woff2": {
+    "file": "assets/fa-thin-100-DufDoAQV.woff2",
+    "src": "resources/sass/font-awesome/webfonts/fa-thin-100.woff2"
+  },
+  "resources/sass/font-awesome/webfonts/fa-v4compatibility.ttf": {
+    "file": "assets/fa-v4compatibility-B4ZlYYwc.ttf",
+    "src": "resources/sass/font-awesome/webfonts/fa-v4compatibility.ttf"
+  },
+  "resources/sass/font-awesome/webfonts/fa-v4compatibility.woff2": {
+    "file": "assets/fa-v4compatibility-CTdmZhYA.woff2",
+    "src": "resources/sass/font-awesome/webfonts/fa-v4compatibility.woff2"
+  }
+}

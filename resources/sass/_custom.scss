@@ -1,0 +1,177 @@
+/* -------------------------------------------- */
+@page {
+    // size: portrait;
+    margin: 1cm;
+    marks: none;
+}
+
+/* -------------------------------------------- */
+@media print {
+    a:link {
+        border-bottom: none !important;
+        text-decoration: none !important;
+        color: inherit !important;
+    }
+
+    a[href]:after {
+        content: none !important;
+    }
+
+    hr {
+        opacity: 1 !important;
+    }
+}
+
+/* -------------------------------------------- */
+@media screen, print {
+    body {
+        color: $text;
+        padding-top: 7.5rem;
+
+        @media (min-width: 768px) {
+            padding-top: 4.5rem;
+        }
+    }
+
+    .navbar {
+        box-shadow: 0 5px 10px 0 rgba(204, 204, 204, 0.3);
+    }
+
+    hr.narrow {
+        margin-top: 0;
+        margin-bottom: ($spacer * .5);
+        margin-block-start: 0.5em;
+        margin-block-end: 0.5em;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    hr.narrow2 {
+        margin-block-start: 0.38em;
+        margin-block-end: 0.38em;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    hr.dotted {
+        border-bottom: 1px dotted;
+    }
+
+    .offcanvas {
+        width: 250px;
+    }
+
+    .nav-icon {
+        margin-right: 10px;
+    }
+
+    /* -------------------------------------------- */
+    #toast-container>div {
+        opacity: 1 !important;
+    }
+
+    /* -------------------------------------------- */
+    table.myTable {
+        box-sizing: border-box;
+        border-collapse: collapse;
+        font-size: .8rem;
+        width: 100% !important;
+        margin-bottom: 0px !important;
+    }
+
+    table.myTable thead th {
+        padding: 0.2rem;
+    }
+
+    table.myTable tbody td {
+        padding: 0.2rem;
+    }
+
+    /* -------------------------------------------- */
+    .jstree-default .jstree-search {
+        background-color: #e8eff7;
+    }
+
+    /* -------------------------------------------- */
+    /* Display the error message for phone inputs */
+    .iti--allow-dropdown~.invalid-feedback {
+        display: block;
+    }
+
+    .iti {
+        width: 100%;
+    }
+
+    .iti__arrow {
+        border: none;
+    }
+    /* -------------------------------------------- */
+    /* Muestra el Asterisco (*) en los campos requeridos */
+    .is_required:after {
+        content: '*';
+        margin-left: 3px;
+        color: red;
+        font-weight: bold;
+      }
+    /* -------------------------------------------- */
+    
+
+
+}
+
+
+.styled-table {
+    border-radius: 10px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+
+.styled-table thead tr {
+    background-color: #2F7127; 
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table thead tr.titulo {
+    background-color: #274D8F;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+
+
+.styled-table th,
+.styled-table td {
+    padding: 8px 8px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table tfoot tD.active-row {
+    border-bottom: 2px solid #009879;
+    border-top: 2px solid #009879;
+    font-weight: bold;
+
+}
+
+.styled-table tfoot tD.escena-row {
+ 
+    text-align: center;
+    font-weight: bold;
+
+}

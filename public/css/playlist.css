@@ -1,0 +1,64 @@
+.parent{
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+.parent .child1{
+    width: 68%;
+}
+.child1 video{
+    width: 100%;
+    border-radius: 10px;
+}
+.child1 p{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+.parent .child2{
+    width: 30%;
+    height: 700px;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 1px solid grey;
+    padding: 4px;
+    border-radius: 10px;
+}
+.child2 .videos{
+    width: 95%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.child2 .lista {
+    text-align: center;
+    background: teal;
+    width: 100%;
+    padding: 5px 0px 5px 0;
+    border-radius: 10px;
+    color:#fff;
+}
+
+.videos video{
+    width: 30%;
+    border-radius: 10px;
+}
+.videos p{
+    font-size: 16px;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius: 10px;
+}

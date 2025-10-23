@@ -1,0 +1,77 @@
+/* -------------------------------------------- */
+#sqltable_wrapper .row.justify-content-between {
+  margin-top: 0px !important;
+  padding: 0rem 0.25rem;
+}
+
+table.dataTable {
+  box-sizing: border-box;
+  border-collapse: collapse;
+  font-size: 0.75rem;
+  width: 100% !important;
+  margin-bottom: 0px !important;
+}
+
+table.dataTable thead th {
+  padding: 0.2rem;
+}
+
+table.dataTable tbody td {
+  padding: 0.2rem;
+}
+
+table.dataTable tbody td.dataTables_empty {
+  padding: 1rem;
+  text-align: left;
+}
+
+.dataTables_wrapper.no-footer .dataTables_scrollBody {
+  border-bottom: 1px solid #c8ced3;
+}
+
+.dt-info,
+.dt-search,
+.dt-length,
+.dt-paging {
+  font-size: 0.75rem;
+}
+
+.dt-paging-button {
+    --bs-pagination-padding-x: .5rem;
+    --bs-pagination-padding-y: .25rem;
+    --bs-pagination-font-size: .75rem;
+    --bs-pagination-border-radius: var(--bs-border-radius-sm);
+}
+
+.has-error .invalid-feedback {
+  display: block !important;
+}
+
+/* -------------------------------------------- */
+table.dataTable>tbody>tr.selected>* {
+  box-shadow: inset 0 0 0 9999px rgba(92, 169, 229, 0.9);
+}
+
+table.dataTable.table-striped>tbody>tr.odd>* {
+  box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.05);
+}
+
+table.dataTable.table-striped>tbody>tr.odd.selected>* {
+  box-shadow: inset 0 0 0 9999px rgba(92, 169, 229, 0.95);
+}
+
+table.dataTable.table-hover>tbody>tr:hover>* {
+  box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.075);
+}
+
+table.dataTable.table-hover>tbody>tr.selected:hover>* {
+  box-shadow: inset 0 0 0 9999px rgba(92, 169, 229, 0.975);
+}
+
+/* -------------------------------------------- */
+.table-primary {
+    background-color: #cfe2ff !important;
+}
+.table-success {
+    background-color: #d1e7dd !important;
+}

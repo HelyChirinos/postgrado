@@ -1,0 +1,5 @@
+php artisan optimize
+php artisan config:cache
+APP_DEBUG=false
+APP_ENV=prod
+php artisan key:generate
